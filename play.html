@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <span id="userScore">0</span>
+            <span id="hyphen">-</span>
+            <span id="compScore">0</span>
+        </div>
+        <div class="footer">
+            <div class="box1">
+                <p>You</p>
+                <div id="imgofhand">
+                    <img id="rockimg" class="game-image" src="./assets/rock-hand.png" alt="" height="250px">
+                    <img id="paperimg" class="game-image" src="./assets/paper-hand.png" alt="" height="250px">
+                    <img id="scissorsimg" class="game-image" src="./assets/scissors-hand.png" alt="" height="250px">
+                </div>
+                <div class="img" id="logoid">
+                    <img id="rock" src="./assets/rock-logo.png" class="logo" alt="" height="85px">
+                    <img id="paper" src="./assets/paper-logo.png" class="logo" alt="" height="85px">
+                    <img id="scissors" class="logo" src="./assets/scissors-logo.png" alt="" height="85px">
+                </div>
+            </div>
+            <div class="vs">
+                <img src="./assets/vs.png" alt="" height="500px">
+            </div>
+            <div id="box2">
+                <p>Comp</p>
+                <div id="complier"></div>
+            </div>
+        </div>
+        <p id="ptag"></p>
+        <button> Play Again</button>
+    </div>
+
+    <script src="add.js"></script>  
+</body>
+</html>
